@@ -49,7 +49,7 @@ module.exports = {
 			},
 			{
 				test: /\.ttf$/,
-				use: ['file-loader']
+				type: 'asset/resource'
 			}
 		]
 	},
@@ -123,7 +123,7 @@ module.exports = {
 			},
 			{
 				test: /\.ttf$/,
-				use: ['file-loader']
+				type: 'asset/resource'
 			}
 		]
 	}
